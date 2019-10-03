@@ -1,0 +1,43 @@
+{
+  "name": "philippebeck/php-app",
+  "version": "0.1.0",
+  "type": "project",
+  "description": "Template to start a PHP Application",
+  "keywords": [
+    "template",
+    "mvc"
+  ],
+  "homepage": "https://philippebeck.net",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philippe Beck",
+      "email": "philippe@philippebeck.net",
+      "homepage": "https://philippebeck.net",
+      "role": "Lead Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": "7.2",
+    "twig/twig": "^2.11.3"
+  },
+  "require-dev": {
+    "tracy/tracy": "^2.7.0"
+  },
+  "config": {
+    "platform": {
+      "php": "7.2"
+    }
+  },
+  "support": {
+    "email": "admin@philippebeck.net",
+    "issues": "https://github.com/philippebeck/php-app/issues",
+    "wiki": "https://github.com/philippebeck/php-app/wiki",
+    "source": "https://github.com/philippebeck/php-app"
+  }
+}
